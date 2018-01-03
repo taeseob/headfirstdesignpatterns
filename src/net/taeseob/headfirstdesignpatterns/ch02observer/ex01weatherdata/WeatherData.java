@@ -39,7 +39,7 @@ public class WeatherData implements Subject {
 //	
 //	}
 	
-	private ArrayList<Observer> observers;
+	private ArrayList<Observer> observers; // 상속보다는 구성을 활용한다.
 	private float temperature;
 	private float humidity;
 	private float pressure;
