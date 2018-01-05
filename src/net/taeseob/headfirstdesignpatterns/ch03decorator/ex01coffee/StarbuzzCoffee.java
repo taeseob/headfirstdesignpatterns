@@ -1,12 +1,12 @@
 package net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee;
 
 import net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee.beverage.Beverage;
-import net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee.beverage.DarkRoast;
-import net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee.beverage.Espresso;
-import net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee.beverage.HouseBlend;
-import net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee.condiment.Mocha;
-import net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee.condiment.Soy;
-import net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee.condiment.Whip;
+import net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee.beverage.ext.DarkRoast;
+import net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee.beverage.ext.Espresso;
+import net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee.beverage.ext.HouseBlend;
+import net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee.condiment.ext.Mocha;
+import net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee.condiment.ext.Soy;
+import net.taeseob.headfirstdesignpatterns.ch03decorator.ex01coffee.condiment.ext.Whip;
 
 public class StarbuzzCoffee {
 

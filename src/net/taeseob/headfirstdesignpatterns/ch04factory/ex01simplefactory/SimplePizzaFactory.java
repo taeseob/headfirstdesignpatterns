@@ -1,10 +1,10 @@
 package net.taeseob.headfirstdesignpatterns.ch04factory.ex01simplefactory;
 
-import net.taeseob.headfirstdesignpatterns.ch04factory.ex01simplefactory.pizza.CheesePizza;
-import net.taeseob.headfirstdesignpatterns.ch04factory.ex01simplefactory.pizza.ClamPizza;
-import net.taeseob.headfirstdesignpatterns.ch04factory.ex01simplefactory.pizza.PepperoniPizza;
 import net.taeseob.headfirstdesignpatterns.ch04factory.ex01simplefactory.pizza.Pizza;
-import net.taeseob.headfirstdesignpatterns.ch04factory.ex01simplefactory.pizza.VeggiePizza;
+import net.taeseob.headfirstdesignpatterns.ch04factory.ex01simplefactory.pizza.ext.CheesePizza;
+import net.taeseob.headfirstdesignpatterns.ch04factory.ex01simplefactory.pizza.ext.ClamPizza;
+import net.taeseob.headfirstdesignpatterns.ch04factory.ex01simplefactory.pizza.ext.PepperoniPizza;
+import net.taeseob.headfirstdesignpatterns.ch04factory.ex01simplefactory.pizza.ext.VeggiePizza;
 
 public class SimplePizzaFactory {
 

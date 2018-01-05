@@ -1,9 +1,10 @@
 package net.taeseob.headfirstdesignpatterns.ch02observer.ex02weatherdatawithjavabuiltin;
 
-import net.taeseob.headfirstdesignpatterns.ch02observer.ex02weatherdatawithjavabuiltin.display.CurrentConditionsDisplay;
-import net.taeseob.headfirstdesignpatterns.ch02observer.ex02weatherdatawithjavabuiltin.display.ForecastDisplay;
-import net.taeseob.headfirstdesignpatterns.ch02observer.ex02weatherdatawithjavabuiltin.display.HeatIndexDisplay;
-import net.taeseob.headfirstdesignpatterns.ch02observer.ex02weatherdatawithjavabuiltin.display.StatisticsDisplay;
+import net.taeseob.headfirstdesignpatterns.ch02observer.ex02weatherdatawithjavabuiltin.observable.ext.WeatherData;
+import net.taeseob.headfirstdesignpatterns.ch02observer.ex02weatherdatawithjavabuiltin.observer.impl.CurrentConditionsDisplay;
+import net.taeseob.headfirstdesignpatterns.ch02observer.ex02weatherdatawithjavabuiltin.observer.impl.ForecastDisplay;
+import net.taeseob.headfirstdesignpatterns.ch02observer.ex02weatherdatawithjavabuiltin.observer.impl.HeatIndexDisplay;
+import net.taeseob.headfirstdesignpatterns.ch02observer.ex02weatherdatawithjavabuiltin.observer.impl.StatisticsDisplay;
 
 public class WeatherStation {
 

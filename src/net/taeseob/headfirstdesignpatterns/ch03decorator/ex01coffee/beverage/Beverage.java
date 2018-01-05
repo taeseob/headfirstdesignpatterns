@@ -27,7 +27,7 @@ public abstract class Beverage {
 	 * 무조건 OCP를 적용하는 것은 시간 낭비가 될 수 있고,
 	 * 괜히 쓸 데 없는 일을 하는 것일 수도 있으므로 주의해야 한다.
 	 */
-	String description = "제목 없음";
+	protected String description = "제목 없음";
 	
 	public String getDescription() {
 		return this.description;

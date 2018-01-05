@@ -1,9 +1,9 @@
 package net.taeseob.headfirstdesignpatterns.ch01strategy.ex02duckwithstrategypattern;
 
 import net.taeseob.headfirstdesignpatterns.ch01strategy.ex02duckwithstrategypattern.duck.Duck;
-import net.taeseob.headfirstdesignpatterns.ch01strategy.ex02duckwithstrategypattern.duck.MallardDuck;
-import net.taeseob.headfirstdesignpatterns.ch01strategy.ex02duckwithstrategypattern.duck.ModelDuck;
-import net.taeseob.headfirstdesignpatterns.ch01strategy.ex02duckwithstrategypattern.fly.FlyRocketPowered;
+import net.taeseob.headfirstdesignpatterns.ch01strategy.ex02duckwithstrategypattern.duck.ext.MallardDuck;
+import net.taeseob.headfirstdesignpatterns.ch01strategy.ex02duckwithstrategypattern.duck.ext.ModelDuck;
+import net.taeseob.headfirstdesignpatterns.ch01strategy.ex02duckwithstrategypattern.fly.impl.FlyRocketPowered;
 
 public class MiniDuckSimulator {
 

@@ -1,9 +1,10 @@
 package net.taeseob.headfirstdesignpatterns.ch02observer.ex01weatherdata;
 
-import net.taeseob.headfirstdesignpatterns.ch02observer.ex01weatherdata.display.CurrentConditionsDisplay;
-import net.taeseob.headfirstdesignpatterns.ch02observer.ex01weatherdata.display.ForecastDisplay;
-import net.taeseob.headfirstdesignpatterns.ch02observer.ex01weatherdata.display.HeatIndexDisplay;
-import net.taeseob.headfirstdesignpatterns.ch02observer.ex01weatherdata.display.StatisticsDisplay;
+import net.taeseob.headfirstdesignpatterns.ch02observer.ex01weatherdata.observer.impl.CurrentConditionsDisplay;
+import net.taeseob.headfirstdesignpatterns.ch02observer.ex01weatherdata.observer.impl.ForecastDisplay;
+import net.taeseob.headfirstdesignpatterns.ch02observer.ex01weatherdata.observer.impl.HeatIndexDisplay;
+import net.taeseob.headfirstdesignpatterns.ch02observer.ex01weatherdata.observer.impl.StatisticsDisplay;
+import net.taeseob.headfirstdesignpatterns.ch02observer.ex01weatherdata.subject.impl.WeatherData;
 
 public class WeatherStation {
 

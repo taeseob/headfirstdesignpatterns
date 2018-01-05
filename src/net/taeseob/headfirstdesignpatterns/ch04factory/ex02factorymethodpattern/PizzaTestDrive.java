@@ -1,9 +1,9 @@
 package net.taeseob.headfirstdesignpatterns.ch04factory.ex02factorymethodpattern;
 
 import net.taeseob.headfirstdesignpatterns.ch04factory.ex02factorymethodpattern.pizza.Pizza;
-import net.taeseob.headfirstdesignpatterns.ch04factory.ex02factorymethodpattern.pizzastore.ChicagoPizzaStore;
-import net.taeseob.headfirstdesignpatterns.ch04factory.ex02factorymethodpattern.pizzastore.NYPizzaStore;
 import net.taeseob.headfirstdesignpatterns.ch04factory.ex02factorymethodpattern.pizzastore.PizzaStore;
+import net.taeseob.headfirstdesignpatterns.ch04factory.ex02factorymethodpattern.pizzastore.ext.ChicagoPizzaStore;
+import net.taeseob.headfirstdesignpatterns.ch04factory.ex02factorymethodpattern.pizzastore.ext.NYPizzaStore;
 
 public class PizzaTestDrive {
 

@@ -1,7 +1,7 @@
 package net.taeseob.headfirstdesignpatterns.ch01strategy.ex02duckwithstrategypattern.duck;
 
 import net.taeseob.headfirstdesignpatterns.ch01strategy.ex02duckwithstrategypattern.fly.FlyBehavior;
-import net.taeseob.headfirstdesignpatterns.ch01strategy.ex02duckwithstrategypattern.quack.QuackBehavior;
+import net.taeseob.headfirstdesignpatterns.ch01strategy.ex02duckwithstrategypattern.quack.impl.QuackBehavior;
 
 public abstract class Duck {
 	
@@ -30,8 +30,8 @@ public abstract class Duck {
 	 * (나는 행동을 FlyBehavior 인터페이스 타입의 flyBehavior 속성으로 갖게 한다.)
 	 */
 	
-	FlyBehavior flyBehavior;
-	QuackBehavior quackBehavior;
+	protected FlyBehavior flyBehavior;
+	protected QuackBehavior quackBehavior;
 	
 	// 동적으로 행동을 지정하기 위한 세터 메소드
 	public void setFlyBehavior(FlyBehavior flyBehavior) {
